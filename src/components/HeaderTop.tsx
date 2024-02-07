@@ -6,13 +6,19 @@ import { TiSpanner } from "react-icons/ti";
 import { FaFolder } from "react-icons/fa";
 import { FaChartArea } from "react-icons/fa";
 import { FaTable } from "react-icons/fa6";
+import Header from "@/components/Header";
+
 
 
 const HeaderTop = ()=>{
-    // @ts-ignore
+
     return(
-        <div className={'bg-gray-950'}>
-            <div className={'flex-wrap items-center justify-center bg-gradient-to-b from-blue-500 to-blue-700 h-[1000px] w-[220px] '}>
+<div className={'bg-gray-200'}>
+        <Header/>
+        <div className={'relative '}>
+
+
+            <div className={'flex-wrap items-center justify-center bg-gradient-to-b from-blue-500 to-blue-700 h-[1000px] w-[220px]'}>
                 <ImWink2 className={'icon relative left-6 top-8'}/>
                 <div className={"SBAdmin text-xl font-sans  font-bold text-white relative top-0 left-[80px]"}>SB ADMIN<sup>2</sup></div>
 
@@ -105,18 +111,13 @@ const HeaderTop = ()=>{
                 <div className={'arr bg-gray-400 bg-opacity-45 hover:bg-gray-300 ' }>
                     <div className={'ArrowLeft'}></div>
                 </div>
-
-                <div className="sidebar-card d-none d-lg-flex">
-
-                        <img src={'src/images/undraw_rocket.svg'} alt={'rocket'}/>
-                        <p className="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
-                        <a className="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
-                </div>
-
             </div>
 
 
+
         </div>
+
+</div>
     )
 }
 export default HeaderTop;
