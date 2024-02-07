@@ -10,3 +10,19 @@
     color: white;
 }
 
+.arr{
+    @apply  h-[50px] w-[50px] rounded-full relative top-20 left-16
+}
+
+.ArrowLeft{
+    position: relative;
+    height: 12px;
+    width: 12px;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    transform: rotate(-46deg);
+    left: 21px;
+    top: 19px;
+
+}
+

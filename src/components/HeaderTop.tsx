@@ -102,6 +102,17 @@ const HeaderTop = ()=>{
 
                 <hr className={"sidebar-divider my-0 border-gray-400 visible h-0 box-content relative top-[45px] left-2 w-[200px]"}/>
 
+                <div className={'arr bg-gray-400 bg-opacity-45 hover:bg-gray-300 ' }>
+                    <div className={'ArrowLeft'}></div>
+                </div>
+
+                <div className="sidebar-card d-none d-lg-flex">
+
+                        <img src={'src/images/undraw_rocket.svg'} alt={'rocket'}/>
+                        <p className="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
+                        <a className="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
+                </div>
+
             </div>
 
 
