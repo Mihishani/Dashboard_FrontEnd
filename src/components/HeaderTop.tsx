@@ -13,7 +13,7 @@ import Header from "@/components/Header";
 const HeaderTop = ()=>{
 
     return(
-<div className={'bg-gray-200'}>
+<div className={'bg-gray-200 flex w-screen '}>
         <Header/>
         <div className={'relative '}>
 
