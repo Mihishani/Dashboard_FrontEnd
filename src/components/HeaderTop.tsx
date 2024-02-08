@@ -7,6 +7,8 @@ import { FaFolder } from "react-icons/fa";
 import { FaChartArea } from "react-icons/fa";
 import { FaTable } from "react-icons/fa6";
 import Header from "@/components/Header";
+import {B612} from "next/dist/compiled/@next/font/dist/google";
+import Body from "@/components/Body";
 
 
 
@@ -15,6 +17,8 @@ const HeaderTop = ()=>{
     return(
 <div className={'bg-gray-200 flex w-screen '}>
         <Header/>
+        <Body/>
+
         <div className={'relative '}>
 
 
